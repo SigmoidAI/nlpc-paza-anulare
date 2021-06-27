@@ -37,11 +37,11 @@ Let's suppose that your file path is: "D:\user\development\final version"
 
 In this case, on line 116, that looks like this after downloading:
 
-rf = joblib.load(*r*'F:\Eduard\Autodezvoltare\NLP camp\final version\NLPC-main\bot\World Map Visualization\SA_module.joblib')
+`rf = joblib.load(*r*'F:\Eduard\Autodezvoltare\NLP camp\final version\NLPC-main\bot\World Map Visualization\SA_module.joblib')`
 
 The changed line should look like this:
 
-rf = joblib.load(*r*'D:\user\development\final version\SA_module.joblib').
+`rf = joblib.load(*r*'D:\user\development\final version\SA_module.joblib')`
 
 Needed Libraries:
 
